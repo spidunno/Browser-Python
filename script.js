@@ -17,8 +17,7 @@ languagePluginLoader.then(() => {
 	    import io
 	    sys.stdout = io.StringIO()
 		`);
-		pyodide.globals.sys.version = `3.8.2: Web Edition (default, Dec 25 2020, 21:20:57) 
-		[Clang 6.0.1 (/b/s/w/ir/cache/git/chromium.googlesource.com-external-github.com`
+		pyodide.globals.sys.version = `3.8.2: Web Edition (default, Dec 25 2020, 21:20:57)\n[Clang 6.0.1 (/b/s/w/ir/cache/git/chromium.googlesource.com-external-github.com`
 			var term = $('#terminal')
 			term.terminal(function(command) {
 			pyodide.runPython(command);
