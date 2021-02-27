@@ -28,6 +28,6 @@ languagePluginLoader.then(() => {
 		}, {
 			greetings: `Python 3.8.2: Web Edition (default, Dec 25 2020, 21:20:57) 
 [Clang 6.0.1 (/b/s/w/ir/cache/git/chromium.googlesource.com-external-github.com`
-		}).echo('https://github.com/spidunno/Browser-Python \n https://github.com/iodide-project/pyodide').set_prompt('>>> ');
+		}).echo('https://github.com/spidunno/Browser-Python \nhttps://github.com/iodide-project/pyodide').set_prompt('>>> ');
 	});
 });
